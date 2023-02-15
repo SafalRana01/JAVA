@@ -11,3 +11,15 @@
                   System.out.println("The area of rectangle is "+AreaOfRectangle+ " unit squares.");
      }
  } 
+
+2. Write a program to find the square of the number 3.9.
+
+ public class Questions
+ {
+     public static void main(String[] args)
+     {
+          double i = 3.9;
+          double square = i*i;
+              System.out.println("The square of given number is "+square);
+     }
+ }
