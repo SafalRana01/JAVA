@@ -12,6 +12,7 @@
      }
  } 
 
+
 2. Write a program to find the square of the number 3.9.
 
  public class Questions
@@ -23,3 +24,16 @@
               System.out.println("The square of given number is "+square);
      }
  }
+
+
+3. Write a program to convert Fahrenheit into Celsius.
+
+public class Questions
+{
+    public static void main(String[] args)
+    {
+           int fahrenheit = 90;
+           double celcius = (fahrenheit - 32)*5/9;
+                       System.out.println(celcius);
+    }
+}
