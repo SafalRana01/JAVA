@@ -55,3 +55,16 @@ public class Questions
                      System.out.println(a);
         }
     }    
+
+
+    
+    b. (55+9) % 9
+     
+     public class Question
+     {
+          public static void main(String[] args)
+          {
+               double b = (55 + 9) % 9;
+                     System.out.println(b);
+          }
+     }
