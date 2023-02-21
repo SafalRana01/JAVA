@@ -68,3 +68,20 @@ public class Questions
                      System.out.println(b);
           }
      }
+
+
+     
+     c. 20 + -3*5 / 8
+     
+     public class Question
+     {
+          public static void main(String[] args)
+          {
+               double c = 20 + -3 * 5 / 8;
+                     System.out.println(c);
+          }
+     } 
+     
+     
+     
+     
