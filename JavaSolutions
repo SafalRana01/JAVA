@@ -94,3 +94,20 @@ public class Questions
                           System.out.println(d);
            }
      }
+
+
+
+5. Write a Java program to print the area and perimeter of a circle.
+
+public class Question
+{
+     public static void main(String[] args)
+     {
+            final double pi = 22/7;
+            int radius = 7;
+            double areaOfCircle = pi * radius * radius;
+            double perimeterOfCircle = 2 * pi * radius;
+                         System.out.println("The area of circle is "+areaOfCircle);
+                         System.out.println("The perimeter of circle is "+perimeterOfCircle);
+     }
+}     
