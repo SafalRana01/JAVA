@@ -108,7 +108,7 @@ public class Question
             double areaOfCircle = pi * radius * radius;
             double perimeterOfCircle = 2 * pi * radius;
                          System.out.println("The area of circle is "+areaOfCircle);
-                         System.out.println("The perimeter of circle is "+perimeterOfCircle)
+                         System.out.println("The perimeter of circle is "+perimeterOfCircle);
      }
 }     
 
