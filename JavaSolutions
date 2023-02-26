@@ -143,13 +143,5 @@ public class Question
 
 
 
-7. Write a Java program to convert a decimal number to a binary number.
-
-public class Question
-{
-      public static void main(String[] args)
-      {
-               System.out.println(Integer.toBinaryString(130));
-      }
-}      
+      
 
