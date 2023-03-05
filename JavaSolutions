@@ -137,7 +137,7 @@ public class Question
 {
       public static void main(String[] args)
       {
-               System.out.println(Integer.toBinaryString(130));aaaa
+               System.out.println(Integer.toBinaryString(130));aaa
       }
 }      
 
