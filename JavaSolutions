@@ -174,28 +174,6 @@ public class Question
          }
     }
 }
-public class Question
-{
-   public static void main(String[] args)
-   {
-         int a = 25;
-         int b = 39;
-         if(a == b){
-              System.out.println(a+ " = "+b);
-         }if(a < b){
-              System.out.println(a+ " < "+b);
-         }if(a > b){
-              System.out.println(a+ " > "+b);
-         }if(a <= b){
-              System.out.println(a+ " <= "+b);
-         }if(a >= b){
-              System.out.println(a+ " >= "+b);
-         }if(a != b){
-              System.out.println(a+ " != "+b);
-         }
-    }
-}
-
 
 
 9. WAP to check if the given number is even or odd.
