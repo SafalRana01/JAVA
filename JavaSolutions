@@ -178,9 +178,6 @@ public class Question
 
 9. WAP to check if the given number is even or odd.
 
-
-9. WAP to check if the given number is even or odd.
-
 public class Question
 {
     public static void main(String[] args){
