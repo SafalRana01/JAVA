@@ -178,23 +178,6 @@ public class Question
 
 9. WAP to check if the given number is even or odd.
 
-public class Question
-{
-    public static void main(String[] args){
-            int i = 119;
-            if(i % 2 == 0){
-                 System.out.println("This is even number");
-            }else{
-                 System.out.println("This is odd number");
-            }
-    }
-}
-public class Question
-{
-   public static void main(String[] args)
-   {
- 
-
 
 9. WAP to check if the given number is even or odd.
 
