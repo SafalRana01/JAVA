@@ -202,37 +202,37 @@ public class Question
    Expected output when the number is 8:
    Unexpected Input
    
-   public class Question
+public class Question
 {
-        public static void main(String[] args)
-        {
-             int days = 1;
+     public static void main(String[] args)
+     {
+          int days = 1;
              
-             switch(days){
-                case 1:
-                    System.out.println("Monday");
-                    break;
-                case 2:
-                    System.out.println("Tuesday");
-                    break;
-                case 3:
-                    System.out.println("Wednesday");
-                    break;
-                case 4:
-                    System.out.println("Thursday");
-                    break;
-                case 5:
-                    System.out.println("Friday");
-                    break;
-                case 6:
-                    System.out.println("Saturday");
-                    break;
-                case 7:
-                    System.out.println("Sunday");
-                    break;
-                case 8:
-                    System.out.println("Unexpected input");
-                    break;
-        }
+          switch(days){
+             case 1:
+                 System.out.println("Monday");
+                 break;
+             case 2:
+                 System.out.println("Tuesday");
+                 break;
+             case 3:
+                 System.out.println("Wednesday");
+                 break;
+             case 4:
+                 System.out.println("Thursday");
+                 break;
+             case 5:
+                 System.out.println("Friday");
+                 break;
+             case 6:
+                 System.out.println("Saturday");
+                 break;
+             case 7:
+                 System.out.println("Sunday");
+                 break;
+             case 8:
+                 System.out.println("Unexpected input");
+                 break;
+    }
 }
 
