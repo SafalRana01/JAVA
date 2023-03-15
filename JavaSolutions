@@ -190,3 +190,14 @@ public class Question
     }
 }
 
+
+10. WAP to print the respective day for the number using a switch statement.
+    
+    Expected output when the number is 1:
+    Monday
+   
+   Expected output when the number is 7:
+   Sunday
+
+   Expected output when the number is 8:
+   Unexpected Input
