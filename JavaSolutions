@@ -233,6 +233,6 @@ public class Question
              case 8:
                  System.out.println("Unexpected input");
                  break;
-    }
+     }
 }
 
