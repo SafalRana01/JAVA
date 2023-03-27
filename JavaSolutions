@@ -302,7 +302,7 @@ public class Question
                     System.out.println("Sunday");
                     break;
                 case 8:
-                    System.out.println("Unexpected input");
+                    System.out.println("Unexpected input")
                     break;
         }
 }        
