@@ -303,6 +303,6 @@ public class Question
                     break;
                 case 8:
                     System.out.println("Unexpected input");
-                    break
+                    break;
         }
 }        
