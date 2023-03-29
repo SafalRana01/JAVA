@@ -316,4 +316,3 @@ public class CubeOfGivenNumber
                System.out.println("The cube of "+a+" is "+(a*a*a));
          }
 }
-
