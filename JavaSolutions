@@ -306,3 +306,6 @@ public class Question
                     break;
         }
 }        
+
+
+11. WAP to print the cube of the given number up to the 10th position.
