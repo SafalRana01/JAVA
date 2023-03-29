@@ -309,6 +309,7 @@ public class Question
 
 
 11. WAP to print the cube of the given number up to the 10th position.
+
 public class CubeOfGivenNumber
 {
          for(int a = 1; a <= 10; a++){
