@@ -316,3 +316,17 @@ public class CubeOfGivenNumber
                System.out.println("The cube of "+a+" is "+(a*a*a));
          }
 }
+
+
+4. Write a program in Java to display the pattern like a right-angle triangle with a number.
+ Expected Output
+ 1
+ 12
+ 123
+ 1234
+ 12345
+ 123456
+ 1234567
+ 12345678
+ 123456789
+ 12345678910
