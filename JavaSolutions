@@ -330,3 +330,7 @@ public class CubeOfGivenNumber
  12345678
  123456789
  12345678910
+
+
+public static void main(String[] args)
+{
