@@ -338,6 +338,6 @@ public static void main(String[] args)
                 for(int b = 1; b <= a; b++){
                       System.out.print(b);
                 }
-                System.out.println()
+                System.out.println();
         }
 }
