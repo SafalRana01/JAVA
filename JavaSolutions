@@ -344,8 +344,8 @@ public static void main(String[] args)
 
 
 5. Write a program to display the following outputs using a loop:
-* * * * *
-* * * *
-* * *
-* *
-*
+   * * * * *
+   * * * *
+   * * *
+   * *
+   *
