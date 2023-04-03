@@ -357,6 +357,6 @@ public class StarBackLoop
                 for(int n = 5; n >= m; n--){
                       System.out.print("*");
                 }
-                System.out.println();
+                System.out.println()
          }
 }
