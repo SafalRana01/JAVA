@@ -358,11 +358,14 @@ public class RightAngelTriangle
    
 public class StarBackLoop
 {
-         for(int m = 1; m <= 5; m++){
-                for(int n = 5; n >= m; n--){
-                      System.out.print("*");
-                }
-                System.out.println();
+         public static void main(String[] args)
+         {
+                  for(int m = 1; m <= 5; m++){
+                        for(int n = 5; n >= m; n--){
+                              System.out.print("*");
+                        }
+                        System.out.println();
+                  }
          }
 }
 
