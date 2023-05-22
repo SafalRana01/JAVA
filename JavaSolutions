@@ -334,15 +334,17 @@ public class CubeOfGivenNumber
  123456789
  12345678910
 
-
-public static void main(String[] args)
+public class RightAngelTriangle
 {
-         for(int a = 1; a <= 10; a++){
-                for(int b = 1; b <= a; b++){
-                      System.out.print(b);
-                }
-                System.out.println();
-        }
+         public static void main(String[] args)
+         {
+               for(int a = 1; a <= 10; a++){
+                     for(int b = 1; b <= a; b++){
+                            System.out.print(b);
+                     }
+                     System.out.println();
+               }
+         }
 }
 
 
