@@ -312,8 +312,11 @@ public class Question
 
 public class CubeOfGivenNumber
 {
-         for(int a = 1; a <= 10; a++){
-               System.out.println("The cube of "+a+" is "+(a*a*a));
+         public static void main(String[] args)
+         {
+               for(int a = 1; a <= 10; a++){
+                     System.out.println("The cube of "+a+" is "+(a*a*a));
+               }
          }
 }
 
@@ -364,6 +367,9 @@ public class StarBackLoop
 
 
 14. WAP to store numbers from 1 to 100 in an array using a loop statement.
+
+public class NumberStore
+{
 
 int[] numbers = new int[100];
     
