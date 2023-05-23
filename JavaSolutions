@@ -376,13 +376,18 @@ public class StarBackLoop
 public class NumberStore
 {
 
-int[] numbers = new int[100];
+         public static void main(String[] args)
+         {
+               int[] numbers = new int[100];
     
-        // for (int i = 0; i < 100; i++) {
-            // numbers[i] = i + 1;
-        // }
-    
-        // System.out.println();
-        // for (int num : numbers) {
-              // System.out.print(num + " ");
-        // }
+               for (int i = 0; i < 100; i++) {
+                     numbers[i] = i + 1;
+                     System.out.println(numbers[i]);
+               }
+               
+         }
+}
+
+
+
+
