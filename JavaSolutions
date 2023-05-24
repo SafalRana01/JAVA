@@ -180,7 +180,8 @@ public class Question
 
 public class Question
 {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
             int i = 119;
             if(i % 2 == 0){
                  System.out.println("This is even number");
@@ -419,3 +420,22 @@ public class NumberStore
                         {4, 5, 6, 9},
                         {7},
                         };
+
+
+public class PrintingNumberInPattern
+{
+            public static void main(String[] args)
+            {
+                     int[][] a = {{1, 2}, {3, 4}}; //Given
+                     // Using a loop to iterate over the rows of the array
+                     for (int i = 0; i < a.length; i++) {
+                              // Using another loop to iterate over the elements in the current row
+                              for (int j = 0; j < a[i].length; j++) {
+                                    // Printing the current element
+                                    System.out.print(a[i][j] + " "); 
+                              }
+                              // Moving to a new line after printing all the elements in the current row
+                              System.out.println();
+                     }
+            }
+}
