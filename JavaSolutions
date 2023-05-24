@@ -426,7 +426,11 @@ public class PrintingNumberInPattern
 {
             public static void main(String[] args)
             {
-                     int[][] a = {{1, 2}, {3, 4}}; //Given
+                     int[][] a = {
+                                 {1, 2, 3},
+                                 {4, 5, 6, 9},
+                                 {7},
+                             };
                      // Using a loop to iterate over the rows of the array
                      for (int i = 0; i < a.length; i++) {
                               // Using another loop to iterate over the elements in the current row
