@@ -448,3 +448,25 @@ public class PrintingNumberInPattern
 
 17.    WAP to count numbers of even and odd numbers in the given array
        int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12};
+       
+       
+public class CountEvenAndOddNumbers
+{
+            public static void main(String[] args)
+            {
+                     int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12}; // Given
+                     int evenCount = 0; // Declaring a variable to hold the count of even numbers
+                     int oddCount = 0; // Declaring a variable to hold the count of odd numbers
+                     // Using a loop to iterate over the elements of the array
+                     for (int i = 0; i < numbers.length; i++) {
+                              if (numbers[i] % 2 == 0) { // Checking if the current element is even or odd
+                                    evenCount++; // Increment the count of even numbers
+                              } else {
+                                    oddCount++; // Increment the count of odd numbers
+                              }
+                     }
+                     // Printing the results
+                      System.out.println("Number of even numbers: " + evenCount);
+                      System.out.println("Number of odd numbers: " + oddCount);
+            }
+}
