@@ -470,3 +470,11 @@ public class CountEvenAndOddNumbers
                       System.out.println("Number of odd numbers: " + oddCount);
             }
 }
+
+
+
+
+
+18.     WAP to print the array {{1,2},{3,4}} in the following pattern
+                        1 2
+                        3 4
