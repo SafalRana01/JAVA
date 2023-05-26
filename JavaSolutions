@@ -502,3 +502,26 @@ public class PrintingNumberInPattern
 
 19.     WAP to print the unique elements for the given array
         int[] array = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
+        
+        
+public class UniqueElementsArray
+{
+                              public static void main(String[] args)
+                              {
+                                          int[] array = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
+                                          // Using a loop to iterate over the elements of the array
+                                          for (int i = 0; i < array.length; i++) {
+                                                      boolean found = false; // Checking if the current element has already been printed
+                                                      for (int j = 0; j < i; j++) {
+                                                               if (array[i] == array[j]) {
+                                                                     found = true;
+                                                                     break;
+                                                               }
+                                                      }
+                                                      // If the current element has not been printed, print it
+                                                      if (!found) {
+                                                               System.out.print(array[i]+ " "); //Printing the unique numbers
+                                                      }
+                                          }
+                               }
+}
