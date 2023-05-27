@@ -155,3 +155,27 @@ public class AndOr
 
 
 6. Math Work Practise
+
+
+public class MathWorkPractise
+{
+    public static void main(String[] args){
+        int a = 100;
+        int b = 54;
+        
+        System.out.println("Maximum value: "+Math.max(a,b)); // output 100
+        System.out.println("Manimum value: "+Math.min(200, 65)); // output 65
+        System.out.println("Round value of 10.99: "+Math.round(10.99)); // out put 11
+        System.out.println("Floor value of 10.99: "+Math.floor(10.99)); //output 10.0
+        System.out.println("Ceil Value "+Math.ceil(10.1)); // output 11.0
+        System.out.println("Square Root "+Math.sqrt(25)); // output 5.0
+        System.out.println("Cube "+Math.pow(5,3)); // output 125.0
+        
+        //FLOOR GIVES THE VALUE BEFORE DECIMAL NUMBERS FOR EXAMPLE THERE IS 10.99 IT'S FLOOR VALUE IS 10..
+        // IT NEGLECT THE DECIMAL NUMBER WHILE CEIL VALUE JUST ROUND OFF THE NUMBERS  IF IT 10.01 ALSO IT GIVES
+        // VALUE 11 IT JUST ROUND OFF IT....
+        
+        System.out.println(Math.random()); //IT WILL GIVE THE RANDOW VALUES
+    }
+}
+
