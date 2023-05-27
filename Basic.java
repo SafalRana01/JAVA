@@ -122,3 +122,32 @@ public class OperatorWork
                    System.out.println(number >= 500); // number is greater than or equals to 500 //OUTPUT = TRUE
      } 
 }
+
+
+
+5. And(&&) OR(||)
+
+public class AndOr
+{
+   public static void main(String[] args){
+       
+       String userID= "_safal_";
+       int password= 1111;
+       
+       //How to use and check "AND"
+       System.out.println(userID =="_safal_" && password == 1111);  //OUTPUR- TRUE
+       /*
+        * USING NOT(!)
+        * From above we get true value so now not(!) is applied now the result will be
+        * opposite (ie it will show false result)
+        */
+       System.out.println(!(userID =="_safal_" && password == 1111)); // OUTPUT =  FALSE
+       //wRONG PASSWORD entering
+       System.out.println(userID == "_safal_" && password == 1121); //OUTPUT = FALSE
+
+       /*
+        * Using "OR" will show true if one of the both variable is true
+        */
+       System.out.println(userID == "_safal_" || password == 8888);       //OUTPUT = TRUE
+   }
+}
