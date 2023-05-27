@@ -151,3 +151,7 @@ public class AndOr
        System.out.println(userID == "_safal_" || password == 8888);       //OUTPUT = TRUE
    }
 }
+
+
+
+6. Math Work Practise
