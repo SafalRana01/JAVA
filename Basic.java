@@ -205,19 +205,21 @@ public class StringWork
 
 public class PractiseIfClause
 {
-       public static void main (String[] args){
+       public static void main (String[] args)
+       {
          /*. There are Five types of Clause basically used in array following are:
           * 1.IF CLAUSE  2.IF-ELSE CLAUSE  3.IF-ELSE-IF CLAUSE  4.SWITCH CLAUSE  5.NESTED-IF 
           */
-          int a = 5; //IF CLAUSES EXAMPLES
+                  int a = 5; //IF CLAUSES EXAMPLES
         
-          if (a >= 0 && a == 100){ //CONDITION OF IF CLAUSE
-                System.out.println("YES");
-          }   
-                System.out.println("NOT");
+                  if (a >= 0 && a == 100){ //CONDITION OF IF CLAUSE
+                        System.out.println("YES");
+                  }   
+                  System.out.println("NOT");
         
                    /* IF THE CONDITION OF IF CLAUSE IS TRUE.IT WILL PRINT BOTH INSIDE AND OUTSIDE'S STATEMENT (i.e YES AND NOT).
                     * BUT IF THE IF CLAUSE CONDITION IS FALSE.IT WILL PRINT ONLY OUTSIDE STATEMENT(ie NOT).  BUT IF IF CONDITION IS
                     * FALSE AND THERE IS NO ANY OUTSIDE STATEMENT THEN IT WILL NOT PRINT ANYTHING IT WILL JUST CRASH....
                     */
-     
+       }
+}
