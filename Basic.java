@@ -198,3 +198,7 @@ public class StringWork
         
     }
 }
+
+
+
+8. IF Clause
