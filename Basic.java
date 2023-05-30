@@ -233,7 +233,7 @@ public class PractiseIfClause
 
 8. b.  IF - ELSE CLAUSE
 
-public class PractiseIfClause
+public class PractiseIfElseClause
 {
                   public static void main (String[] args)
                   {  
@@ -247,12 +247,12 @@ public class PractiseIfClause
                               System.out.println("a is greater than 15");
                         }  
             
-           /* WE SHOULDN'T WRITE CONDITION IN ELSE CLAUSE. ELSE DEPEND ON IF CLAUSE. IF IF CONDITION IS TRUE 
-            * IT WILL PRINT IF'S STATEMENT AND IF IT IS FALSE IT WILL PRINT ELSE'S STATEMENT.
-            * (i.e IN ABOVE EXAMPLE ALSO THE IF CONSITION IS FALSE SO IT WILL PRINT ELSE'S STATEMENT i.e a IS GREATER THAN 15)
-            * IF TAKE TRUE STATEMENT WHILE ELSE CONTAIN FALSE STATEMENT.
-            * IT WILL NOT PRINT BOTH AS LIKE ABOVE IF CLAUSE EXAMPLE...
-            */
+                        /* WE SHOULDN'T WRITE CONDITION IN ELSE CLAUSE. ELSE DEPEND ON IF CLAUSE. IF IF CONDITION IS TRUE 
+                        * IT WILL PRINT IF'S STATEMENT AND IF IT IS FALSE IT WILL PRINT ELSE'S STATEMENT.
+                        * (i.e IN ABOVE EXAMPLE ALSO THE IF CONSITION IS FALSE SO IT WILL PRINT ELSE'S STATEMENT i.e a IS GREATER THAN 15)
+                        * IF TAKE TRUE STATEMENT WHILE ELSE CONTAIN FALSE STATEMENT.
+                        * IT WILL NOT PRINT BOTH AS LIKE ABOVE IF CLAUSE EXAMPLE...
+                        */
        }
 }                        
 
@@ -260,32 +260,32 @@ public class PractiseIfClause
 
 8. c.  IF - ELSE - IF  CLAUSE
 
-public class PractiseIfClause
+public class PractiseIfElseIfClause
 {
                   public static void main (String[] args)
                   {  
                         
                         int a = 20;
          
-           if (a < 10){//CONDITION-1     
-                System.out.println("a is less than 10");
-           }
-            else if(a > 25){//CONDITION-2 
-                System.out.println("a is greater than 25"); 
-           }
-            else if(a == 19){//CONDITION-3      
-                System.out.println("a is equal to 19");  
-           }
-            else{
-                System.out.println("The value of a is "+a);
-           }
+                        if (a < 10){//CONDITION-1     
+                              System.out.println("a is less than 10");
+                        }
+                        else if(a > 25){//CONDITION-2 
+                              System.out.println("a is greater than 25"); 
+                        }
+                        else if(a == 19){//CONDITION-3      
+                              System.out.println("a is equal to 19");  
+                        }
+                        else{
+                              System.out.println("The value of a is "+a);
+                        }
          
-              /* IN THIS IF-ELSE-IF CLAUSES IF THE 1ST CONDITION BECAME TRUE THAN REMAINING CONDITIONS CANNOT BE EXCUTED.
-               * IF THE 1ST CONDITION IS FALSE,THEN IT WILL GO TO 2ND CONDITION IF AGAIN THE 2ND ONE IS FALSE THEN
-               * IT WILL GO TO THE 3RD ONE AND IT GOES LIKE THIS..... AT THE END IF ALL CONDITION ARE FALSE THEN
-               * ELSE CONDITION WILL EXCUTED ITSELF
-               * FOR EXAMPLE.. IN THIS EXAMPLE ALSO THE 1ST, 2ND, 3RD ALL CONDITION IS FALSE SO IT WILL AUTOMATICALLY
-               * PRINT ELSE STATEMENT i.e THE VALUE OF A IS 20...
-               */
+                        /* IN THIS IF-ELSE-IF CLAUSES IF THE 1ST CONDITION BECAME TRUE THAN REMAINING CONDITIONS CANNOT BE EXCUTED.
+                        * IF THE 1ST CONDITION IS FALSE,THEN IT WILL GO TO 2ND CONDITION IF AGAIN THE 2ND ONE IS FALSE THEN
+                        * IT WILL GO TO THE 3RD ONE AND IT GOES LIKE THIS..... AT THE END IF ALL CONDITION ARE FALSE THEN
+                        * ELSE CONDITION WILL EXCUTED ITSELF
+                        * FOR EXAMPLE.. IN THIS EXAMPLE ALSO THE 1ST, 2ND, 3RD ALL CONDITION IS FALSE SO IT WILL AUTOMATICALLY
+                        * PRINT ELSE STATEMENT i.e THE VALUE OF A IS 20...
+                        */
        }
 }                        
