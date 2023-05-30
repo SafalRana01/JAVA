@@ -237,16 +237,15 @@ public class PractiseIfClause
 {
                   public static void main (String[] args)
                   {  
-
-                  //IF - ELSE CLAUSE EXAMPLE
-          int a = 30;
+                        
+                        int a = 30;
         
-          if(a < 30){//IF/ELSE CLAUSES EXAMPLES...
-              System.out.println("a is less than 15");
-          }
-           else{ 
-              System.out.println("a is greater than 15");
-          } 
+                        if(a < 30){//IF/ELSE CLAUSES EXAMPLES...
+                              System.out.println("a is less than 15");
+                        }
+                        else{ 
+                              System.out.println("a is greater than 15");
+                        }  
             
            /* WE SHOULDN'T WRITE CONDITION IN ELSE CLAUSE. ELSE DEPEND ON IF CLAUSE. IF IF CONDITION IS TRUE 
             * IT WILL PRINT IF'S STATEMENT AND IF IT IS FALSE IT WILL PRINT ELSE'S STATEMENT.
@@ -254,4 +253,5 @@ public class PractiseIfClause
             * IF TAKE TRUE STATEMENT WHILE ELSE CONTAIN FALSE STATEMENT.
             * IT WILL NOT PRINT BOTH AS LIKE ABOVE IF CLAUSE EXAMPLE...
             */
-        
+       }
+}                        
