@@ -201,15 +201,20 @@ public class StringWork
 
 
 
-8. IF Clause
+8. a. IF Clause
+
+/*. There are Five types of Clause basically used in array following are:
+* 1.IF CLAUSE  
+  2.IF-ELSE CLAUSE  
+  3.IF-ELSE-IF CLAUSE  
+  4.SWITCH CLAUSE  5.NESTED-IF 
+*/
 
 public class PractiseIfClause
 {
        public static void main (String[] args)
        {
-         /*. There are Five types of Clause basically used in array following are:
-          * 1.IF CLAUSE  2.IF-ELSE CLAUSE  3.IF-ELSE-IF CLAUSE  4.SWITCH CLAUSE  5.NESTED-IF 
-          */
+         
                   int a = 5; //IF CLAUSES EXAMPLES
         
                   if (a >= 0 && a == 100){ //CONDITION OF IF CLAUSE
@@ -223,3 +228,30 @@ public class PractiseIfClause
                     */
        }
 }
+
+
+
+8. b.  IF - ELSE CLAUSE
+
+public class PractiseIfClause
+{
+                  public static void main (String[] args)
+                  {  
+
+                  //IF - ELSE CLAUSE EXAMPLE
+          int a = 30;
+        
+          if(a < 30){//IF/ELSE CLAUSES EXAMPLES...
+              System.out.println("a is less than 15");
+          }
+           else{ 
+              System.out.println("a is greater than 15");
+          } 
+            
+           /* WE SHOULDN'T WRITE CONDITION IN ELSE CLAUSE. ELSE DEPEND ON IF CLAUSE. IF IF CONDITION IS TRUE 
+            * IT WILL PRINT IF'S STATEMENT AND IF IT IS FALSE IT WILL PRINT ELSE'S STATEMENT.
+            * (i.e IN ABOVE EXAMPLE ALSO THE IF CONSITION IS FALSE SO IT WILL PRINT ELSE'S STATEMENT i.e a IS GREATER THAN 15)
+            * IF TAKE TRUE STATEMENT WHILE ELSE CONTAIN FALSE STATEMENT.
+            * IT WILL NOT PRINT BOTH AS LIKE ABOVE IF CLAUSE EXAMPLE...
+            */
+        
