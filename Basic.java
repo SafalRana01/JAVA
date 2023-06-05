@@ -293,3 +293,18 @@ public class PractiseIfElseIfClause
 
 
 9. Operator Work
+
+public class OperatorWork
+{
+     public static void main(String[] args)
+     {
+           int number = 500;
+     
+                   System.out.println(number == 500); //To compare  //OUTPUT = true
+                   System.out.println(number != 500); // Not equals to  //OUTPUT = FALSE
+                   System.out.println(number < 500); //number is less than 500 //OUTPUT = FALSE
+                   System.out.println(number > 500); // number is Greater tha 500 //OUTPUT = FALSE
+                   System.out.println(number <= 500); // number is less than or equals to 500 //OUTPUT = TRUE
+                   System.out.println(number >= 500); // number is greater than or equals to 500 //OUTPUT = TRUE
+     } 
+}
