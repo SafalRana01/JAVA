@@ -308,3 +308,8 @@ public class OperatorWork
                    System.out.println(number >= 500); // number is greater than or equals to 500 //OUTPUT = TRUE
      } 
 }
+
+
+
+
+10. Using AND OR
