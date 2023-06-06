@@ -364,3 +364,8 @@ public class MathWorkPractise
         System.out.println(Math.random()); //IT WILL GIVE THE RANDOW VALUES
     }
 }
+
+
+
+12. String Work
+
