@@ -369,3 +369,18 @@ public class MathWorkPractise
 
 12. String Work
 
+public class StringWork
+{
+    public static void main(String[] args){ //STRING METHOD
+        String country = "Nepal";
+        String capital = "Kathmandu";// IF SPACE IS ENTERED AFTER KTM OR NEPAL ALSO IT WILL COUNT FOR EXAMPLE NEPAL HAVE 
+                                    // FIVE LETTERS BUT IT WILL COUNT 6 IF SPACE IS GIVEN AFTER NEPAL
+        System.out.println("The length of country is "+country.length()); //IT COUNT HOW MANY LETTERS ARE THERE IN STRINGS     //OUTPUT = 5
+        System.out.println("The length of capital is "+capital.length());    //OUT PUT = 9
+        
+        System.out.println(country.charAt(0)); // IT IS USED TO FIND WHAT LETTER IS THERE AT NO 0,1,2      //OUTPUT = N
+        System.out.println(country.charAt(2)); // IT WILL SHOW N FOR 0 AND 2 FOR P                          //OUTPUT = P
+        
+        
+    }
+}
