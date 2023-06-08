@@ -408,3 +408,26 @@ public class PractiseIfClause
                     */
        }
 }        
+
+
+
+14. IF - ELSE - IF Clause
+
+
+          //IF - ELSE CLAUSE EXAMPLE
+          int a = 30;
+        
+          if(a < 30){//IF/ELSE CLAUSES EXAMPLES...
+              System.out.println("a is less than 15");
+          }
+           else{ 
+              System.out.println("a is greater than 15");
+          } 
+            
+           /* WE SHOULDN'T WRITE CONDITION IN ELSE CLAUSE. ELSE DEPEND ON IF CLAUSE. IF IF CONDITION IS TRUE 
+            * IT WILL PRINT IF'S STATEMENT AND IF IT IS FALSE IT WILL PRINT ELSE'S STATEMENT.
+            * (i.e IN ABOVE EXAMPLE ALSO THE IF CONSITION IS FALSE SO IT WILL PRINT ELSE'S STATEMENT i.e a IS GREATER THAN 15)
+            * IF TAKE TRUE STATEMENT WHILE ELSE CONTAIN FALSE STATEMENT.
+            * IT WILL NOT PRINT BOTH AS LIKE ABOVE IF CLAUSE EXAMPLE...
+            */
+        
