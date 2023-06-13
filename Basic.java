@@ -440,6 +440,12 @@ public class PractiseIfClause
 
 15. IF - ELSE - IF Clause
 
+
+public class PractiseIfClause
+{
+       public static void main (String[] args)
+       {
+
           //IF-ELSE-IF EXAMPLES
            int a = 20;
          
