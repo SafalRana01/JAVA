@@ -414,7 +414,7 @@ public class PractiseIfClause
 14. IF - ELSE Clause
 
 
-public class PractiseIfClause
+public class PractiseIfElseClause
 {
        public static void main (String[] args)
        {
