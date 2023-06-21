@@ -471,3 +471,27 @@ public class PractiseIfElseIfClause
                */
          }
 }          
+
+
+
+//CASE SWITH
+           int i = 6;
+         
+           switch(i){ 
+                case 0 :   
+                      System.out.println("i is zero");
+                      break;     
+                case 1 :      
+                      System.out.println("i is one");
+                      break;          
+                
+                default : 
+                     System.out.println("i is not 0 and 1");
+             }
+            
+                  /* IF CASE 0 IS TRUE THEN BREAK WILL HELP TO STOP THE PROCESS AND IT WILL SHOW "i is Zero" AS ANSWER...
+                   *  WHILE IF IT IS FALSE THEN IT WILL CHECK NEXT CASE AND SO ON... IF ALL CASE IS FALSE
+                   *  THEN IT WILL AUTOMATICALLY PRINT DEFAULT CASE.. ie(i is not 0 and 1) IN THIS EXAMPLES....
+                   *  IF BREAK IS NOT USED OR FORGET TO WRITE AND CASE ONE IS ALSO TRUE THEN IT WILL PRINT
+                   *  UNIT DEFAULT...OR ALL CASE     i.e "i is zero" "i is one" "i is not 0 and 1" 
+                   */
