@@ -474,7 +474,7 @@ public class PractiseIfElseIfClause
 
 
 
-15. Switch Case
+16. Switch Case
       
 public class PractiseIfElseIfClause
 {
@@ -502,3 +502,11 @@ public class PractiseIfElseIfClause
                    */
          }
 }          
+
+
+16. Switch Case
+      
+public class PractiseIfElseIfClause
+{
+       public static void main (String[] args)
+       { 
