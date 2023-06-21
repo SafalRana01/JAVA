@@ -510,3 +510,21 @@ public class PractiseIfElseIfClause
 {
        public static void main (String[] args)
        { 
+                  // NESTED IF     
+            
+                  /* IT HAVE TWO IF CLAUSE IF ONLY THE OUTER OR FIRST IF CLAUSE IS TRUE THEN ONLY THE INNER OR 2ND IF CLAUSE WILL
+                   * EXCUTED. OTHERWISE IT WILL CRASH..
+                   */
+        
+             int a = 10;
+             
+             if(a < 100){ //OUTER OR FIRST IF CLAUSE
+                  if(a%2 == 0){ //INNER OR 2ND IF CLAUSE  ------ a%2 WILL GIVE EVEN NUMBER
+                       System.out.println("a is even number");
+                  }
+                   else{
+                      System.out.println("a is odd number");
+                  }
+             }
+      }
+}
