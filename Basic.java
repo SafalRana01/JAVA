@@ -1,5 +1,4 @@
-j
-      1.  Command to write your first name with proper syntax.
+1.  Command to write your first name with proper syntax.
 
 public class MyName{
       public static void main(String[] args)
