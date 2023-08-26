@@ -1,17 +1,3 @@
-1. Write a program to print the area of a rectangle of sides 2 and 3 units
-   respectively.
- 
- public class Questions
- {
-     public static void main(String[] args)
-     {
-           int length = 3;
-           int breadth = 2;
-           int AreaOfRectangle= length*breadth;
-                  System.out.println("The area of rectangle is "+AreaOfRectangle+ " unit squares.");
-     }
- } 
-
 
 2. Write a program to find the square of the number 3.9.
 
